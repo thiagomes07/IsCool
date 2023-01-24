@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "IsCool",
+    "slug": "IsCool",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.thiago27.IsCool"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
+    },
+    "notification": {
+      "icon": "./assets/notifications-icon.png"
+    }
+    ,
+    "extra": {
+      "eas": {
+        "projectId": "7dc23dad-f986-4e83-bac5-1b798fd376a3"
+      }
+    }
+  }
+}
